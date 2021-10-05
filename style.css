@@ -15,6 +15,9 @@ footer
 {
     height: 500px;
     background-color:black ;
+    color: white;
+    text-align: center;
+    padding: 80px;
 }
 
 /* BALISE */
@@ -60,6 +63,12 @@ p
 hr {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
 }
 
 /* CLASS */

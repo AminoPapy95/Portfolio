@@ -18,16 +18,16 @@
             <!-- <img class="logo" src="" alt=""  -->
             <div>LOGO</div>
             <ul>
-                <li>À propos</li>
-                <li>Projets</li>
-                <li>Contact</li>
+                <li><a href="#aboutme">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <div class="hero-area">
             <div class="hero-text">
                 <h1>Amine Houssane</h1>
                 <p>Web developper</p>
-                <div class="button">À propos</div>
+                <div class="button"><a href="#aboutme">À propos</a></div>
             </div>
             <div class="socials">
                 <div>Linkdin</div>
@@ -38,7 +38,7 @@
     <!-- sera différente de l'autre section-->
     <section class="sub-section">
         <div class="information">
-            <h2>A propos</h2>
+            <h2 id="aboutme">A propos</h2>
             <p>Hello, mon nom est Amine Houssane, je suis un web developer en plein apprentissage ! </p>
         </div>
         <div class="headshot-container">
@@ -46,7 +46,7 @@
         </div>
     </section>
     <section class="sub-section-alternative">
-        <h2>Projets</h2>
+        <h2 id="projects">Projets</h2>
         <div class="project-container">
             <div class="project-card">
                 <img class="project-image" src="src/images/projet1.png" alt="Project one image">
@@ -82,7 +82,10 @@
             </div>
         </div>
     </section>
-    <footer></footer>
+    <footer id="contact">
+        <h2>Contact me</h2>
+        <p>aminehoussane@gmail.com</p>
+    </footer>
 
     <script src="src/app.js"></script>
 </body>
